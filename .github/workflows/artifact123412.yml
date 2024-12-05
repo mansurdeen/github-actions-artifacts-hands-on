@@ -14,7 +14,7 @@ jobs:
         path: hello.txt
 
     - name: Display file content
-      run: echo cat ./artifatcs/hello.txt
+      run: echo cat ./artifacts/hello.txt
         
 
   
