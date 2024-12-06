@@ -19,6 +19,11 @@ jobs:
           name: hello-artifact
           path: hello.txt
           
+  job2:
+      needs: job1
+      runs-on: ubuntu-latest
+
+      steps:
       - name: Download file from different job
         uses: actions/download-artifact@v4
         with:
